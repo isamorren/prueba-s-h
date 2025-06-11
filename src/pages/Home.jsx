@@ -12,12 +12,7 @@ function Home() {
       
       <section className="intro-section bg-pattern-subtle">
         <div className="container">
-          <h2>Plot twist: tu casa es ahora tu oficina, aula Y arcade 🎮</h2>
-          <p className="intro-text">
-            2020 nos cambió el juego para siempre. Tu casa ya no es solo tu casa — es tu HQ. 
-            <strong>En Sodimac tenemos todo lo que necesitas para convertir cualquier rincón 
-            en tu zona de poder.</strong> From basic to boss level 🚀
-          </p>
+          <h2>Plot twist: tu casa es ahora tu oficina, aula y arcade 🎮</h2>
         </div>
       </section>
       
@@ -30,7 +25,7 @@ function Home() {
           <div className="stats-grid">
             <div className="stat-item">
               <h3>65K+</h3>
-              <p>🛒 Products que te vuelan la mente</p>
+              <p>🛒 Productos que te vuelan la mente</p>
             </div>
             <div className="stat-item">
               <h3>25+</h3>
@@ -48,8 +43,8 @@ function Home() {
       
       <section className="cta-section corporate-accent">
         <div className="container">
-          <h2>Ready to level up? 🚀</h2>
-          <p>Stop scrolling, start building. Tu setup soñado está a un click de distancia</p>
+          <h2>¿Listos para subir de nivel? 🚀</h2>
+          <p>Para de scrollear y construye tu setup soñado con un solo clic</p>
           <button className="btn btn-primary">
             🔥 Quiero mi glow up
           </button>

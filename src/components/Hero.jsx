@@ -27,14 +27,14 @@ function Hero() {
               size="medium"
               onClick={() => console.log('Navegando a productos')}
             >
-              🛒 Shop Now
+              🛒 Compra ahora
             </SimpleButton>
             <SimpleButton 
               variant="secondary" 
               size="medium"
               onClick={() => console.log('Navegando a inspiración')}
             >
-              ✨ Get Inspo
+              ✨ Inspírate
             </SimpleButton>
           </div>
           <div className="hero-social-proof">

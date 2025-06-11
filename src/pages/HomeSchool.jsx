@@ -5,19 +5,17 @@ function HomeSchool() {
   return (
     <div className="category-page">
       <div className="category-hero">
-        <h1>Home School</h1>
-        <p>El mejor ambiente para el aprendizaje en casa</p>
+        <h1>Home School 🎓</h1>
+        <p>Tu aula en casa, nivel PRO | Todo lo encuentras en Homecenter</p>
       </div>
       
       <div className="container">
         <section className="category-intro">
           <div className="intro-content">
             <div className="intro-text">
-              <h2>Espacios que inspiran el aprendizaje</h2>
+              <h2>Donde el conocimiento se vuelve cool🤓</h2>
               <p>
-                La educación en casa requiere ambientes especialmente diseñados para 
-                fomentar la concentración y el desarrollo. Encuentra todo lo necesario 
-                para crear el espacio de estudio perfecto para tus hijos.
+                Home schooling is the new black. En Homecenter creamos tu espacio de estudio adictivo: todo lo que necesitas para convertir cualquier rincón en el aula más top del vecindario.
               </p>
             </div>
             <div className="intro-image">
@@ -27,26 +25,26 @@ function HomeSchool() {
         </section>
         
         <section className="product-categories">
-          <h3>Todo para el estudio en casa</h3>
+          <h3>Tu squad de estudio esencial 📚</h3>
           <div className="product-grid">
             <div className="product-category">
-              <h4>Escritorios infantiles</h4>
-              <p>Diseños ajustables que crecen con tus hijos</p>
+              <h4>📏 Escritorios kids</h4>
+              <p>Grow‑With‑Me desk: en cada etapa de su crecimiento</p>
               <span className="product-count">+200 modelos</span>
             </div>
             <div className="product-category">
-              <h4>Sillas para niños</h4>
-              <p>Ergonómicas y coloridas para todas las edades</p>
+              <h4>🪑 Sillas kids</h4>
+              <p>Cómodo + colorido = modo concentración activado</p>
               <span className="product-count">+150 opciones</span>
             </div>
             <div className="product-category">
-              <h4>Almacenamiento</h4>
-              <p>Organizadores para libros, útiles y materiales</p>
+              <h4>🗂 Storage solutions</h4>
+              <p>Libros, cuadernos, y todo lo que acumulan organizadito</p>
               <span className="product-count">+300 soluciones</span>
             </div>
             <div className="product-category">
-              <h4>Pizarras y tableros</h4>
-              <p>Herramientas didácticas para el aprendizaje interactivo</p>
+              <h4>🗺️ Pizarras & boards</h4>
+              <p>Herramientas interactivas que hacen magia</p>
               <span className="product-count">+80 variedades</span>
             </div>
           </div>
@@ -55,13 +53,13 @@ function HomeSchool() {
         <section className="tips-section">
           <div className="tips-content">
             <div className="tips-text">
-              <h3>Cómo crear el espacio de estudio perfecto</h3>
+              <h3>Elementos clave que revolucionan tu rincón de estudio 🎨</h3>
               <ul className="tips-list">
-                <li>Ubica el escritorio cerca de una ventana para luz natural</li>
-                <li>Elige muebles ajustables que se adapten al crecimiento</li>
-                <li>Mantén los materiales organizados y al alcance</li>
-                <li>Crea zonas diferenciadas para estudio y descanso</li>
-                <li>Incorpora colores que estimulen la creatividad</li>
+                <li>🌅 Ventana + luz natural = mente a tope</li>
+                <li>📈 Muebles que crecen con tus peques = inversión inteligente</li>
+                <li>📋 Todo organizado = cero estrés, foco total</li>
+                <li>🎨 Zona de estudio + zona de descanso = equilibrio perfecto</li>
+                <li>🌈 Colores inspiradores = creatividad desatada</li>
               </ul>
             </div>
             <div className="tips-image">

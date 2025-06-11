@@ -5,19 +5,19 @@ function HomeOffice() {
   return (
     <div className="category-page">
       <div className="category-hero">
-        <h1>Home Office</h1>
-        <p>Transforma tu casa en la oficina perfecta</p>
+        <h1>Home Office 🏠</h1>
+        <p>WFH mode: ON | Todo lo que necesitas está en Homecenter</p>
       </div>
       
       <div className="container">
         <section className="category-intro">
           <div className="intro-content">
             <div className="intro-text">
-              <h2>Trabaja desde casa con comodidad y estilo</h2>
+              <h2>Tu oficina, tus reglas 💼</h2>
               <p>
-                El teletrabajo llegó para quedarse. En Sodimac Homecenter encontrarás 
-                todo lo necesario para crear un espacio de trabajo productivo, ergonómico 
-                y que se adapte perfectamente a tu hogar.
+                El trabajo en casa no es tendencia, es tu nueva realidad. En Homecenter 
+                tienes todo para montar el workspace que hará que tu productividad 
+                se dispare. Un solo lugar, infinitas posibilidades para tu career glow-up.
               </p>
             </div>
             <div className="intro-image">
@@ -27,26 +27,26 @@ function HomeOffice() {
         </section>
         
         <section className="product-categories">
-          <h3>Categorías destacadas</h3>
+          <h3>Todo tu office setup a un click 📱</h3>
           <div className="product-grid">
             <div className="product-category">
-              <h4>Escritorios</h4>
-              <p>Desde clásicos hasta modernos con altura ajustable</p>
+              <h4>🖥️ Escritorios</h4>
+              <p>Sit-stand desks que se adaptan a tu energy level</p>
               <span className="product-count">+500 modelos</span>
             </div>
             <div className="product-category">
-              <h4>Sillas ergonómicas</h4>
-              <p>Cuida tu postura con sillas diseñadas para largas jornadas</p>
+              <h4>🪑 Sillas ergonómicas</h4>
+              <p>El soporte que necesitas para esas meetings extra largas</p>
               <span className="product-count">+300 opciones</span>
             </div>
             <div className="product-category">
-              <h4>Organización</h4>
-              <p>Estanterías, cajoneras y accesorios para mantener todo en orden</p>
+              <h4>🗂 Organización</h4>
+              <p>¡Ordena tu vida con estilo! Cada cosa en su lugar</p>
               <span className="product-count">+200 productos</span>
             </div>
             <div className="product-category">
-              <h4>Iluminación</h4>
-              <p>Lámparas de escritorio y luz ambiental para reducir fatiga visual</p>
+              <h4>💡 Iluminación</h4>
+              <p>Ilumina tu espacio = Zoom top, en serio ✨</p>
               <span className="product-count">+150 alternativas</span>
             </div>
           </div>
@@ -55,13 +55,13 @@ function HomeOffice() {
         <section className="tips-section">
           <div className="tips-content">
             <div className="tips-text">
-              <h3>Tips para tu Home Office ideal</h3>
+              <h3>Hacks productivos que funcionan 🚀</h3>
               <ul className="tips-list">
-                <li>Elige un espacio con buena iluminación natural</li>
-                <li>Invierte en una silla ergonómica para cuidar tu espalda</li>
-                <li>Mantén tu escritorio organizado con accesorios funcionales</li>
-                <li>Considera un escritorio con altura ajustable para alternar posiciones</li>
-                <li>Añade plantas para mejorar el ambiente y la productividad</li>
+                <li>☀️ Luz natural = impulso instantáneo de ánimo</li>
+                <li>💺 Silla ergonómica = inversión en tu futuro yo</li>
+                <li>📏 Escritorio ordenado = mente despejada, foco total</li>
+                <li>↕️ Escritorio sit‑stand = adiós sedentarismo, hola movimiento</li>
+                <li>🌱 Plantas por doquier = jungla urbana en tu oficina</li>
               </ul>
             </div>
             <div className="tips-image">

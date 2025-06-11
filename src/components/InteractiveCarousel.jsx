@@ -7,19 +7,19 @@ function InteractiveCarousel() {
   const slides = [
     {
       id: 1,
-      title: "WFH like a CEO 👑",
+      title: "WFH como un CEO 👑",
       subtitle: "Productivity level: Infinite",
       image: "/src/assets/images/pages/home-office-1.jpg",
       products: [
-        { name: "Escritorio Boss", price: "$299.990", hot: true },
+        { name: "Estante", price: "$299.990", hot: true },
         { name: "Silla Executive", price: "$199.990" },
-        { name: "Lámpara Focus", price: "$49.990" }
+        { name: "Escritorio Boss", price: "$549.990" }
       ],
       vibe: "professional"
     },
     {
       id: 2,
-      title: "Gaming Beast Mode 🎮",
+      title: "Modo bestia Gamer🎮",
       subtitle: "Ready Player One vibes",
       image: "/src/assets/images/pages/gaming-1.jpg",
       products: [
@@ -46,8 +46,8 @@ function InteractiveCarousel() {
   return (
     <section className="interactive-carousel">
       <div className="container">
-        <h2 className="carousel-title">Room inspo que no para de viral 🔥</h2>
-        <p className="carousel-subtitle">Tap, explore, get inspired</p>
+        <h2 className="carousel-title">Room inspo que no para de ser viral 🔥</h2>
+        <p className="carousel-subtitle">Tap, explora e inspírate</p>
         
         <div className="carousel-container">
           <div className="carousel-main">
@@ -95,9 +95,9 @@ function InteractiveCarousel() {
         
         <div className="carousel-cta">
           <button className="btn btn-primary carousel-btn">
-            🛒 Shop this look
+            🛒 Compra este look
           </button>
-          <span className="social-share">📱 Share this vibe</span>
+          <span className="social-share">📱 Comparte esta vibra</span>
         </div>
       </div>
     </section>

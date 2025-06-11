@@ -38,7 +38,7 @@ function Features() {
   return (
     <section className="features">
       <div className="container">
-        <h2 className="features-title">Por qué elegir Sodimac Homecenter</h2>
+        <h2 className="features-title">Por qué elegir Homecenter</h2>
         <div className="features-grid">
           {features.map((feature, index) => (
             <div key={index} className="feature-item">

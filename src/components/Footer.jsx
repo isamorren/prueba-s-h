@@ -50,7 +50,7 @@ function Footer() {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 Sodimac Homecenter. Todos los derechos reservados.</p>
+          <p>&copy; 2025 Sodimac Homecenter. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
