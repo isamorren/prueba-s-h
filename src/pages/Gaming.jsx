@@ -21,7 +21,7 @@ function Gaming() {
               </p>
             </div>
             <div className="intro-image">
-              <img src="/src/assets/images/pages/gaming-1.jpg" alt="Pareja gaming en sofá" />
+              <img src="/pages/gaming-1.jpg" alt="Pareja gaming en sofá" />
             </div>
           </div>
         </section>
@@ -65,7 +65,7 @@ function Gaming() {
               </ul>
             </div>
             <div className="tips-image">
-              <img src="/src/assets/images/pages/gaming-2.jpg" alt="Setup gaming futurista" />
+              <img src="/pages/gaming-2.jpg" alt="Setup gaming futurista" />
             </div>
           </div>
         </section>

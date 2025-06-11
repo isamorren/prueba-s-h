@@ -17,7 +17,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/src/assets/tramas/shutterstock_326096942.svg');
+  background-image: url('/shutterstock_326096942.svg');
   background-repeat: repeat;
   background-size: 400px;
   opacity: 0.03;
@@ -102,7 +102,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/src/assets/grillas/Grilla-Banner.svg');
+  background-image: url('/Grilla-Banner.svg');
   background-repeat: repeat;
   background-size: 120px;
   opacity: 0.03;

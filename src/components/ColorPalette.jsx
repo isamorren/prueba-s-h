@@ -6,17 +6,17 @@ function ColorPalette() {
     {
       name: 'Azul Corporativo',
       hex: '#0072CE',
-      image: '/src/assets/colores/#0072CE - AZUL.png'
+      image: '/#0072CE - AZUL.png'
     },
     {
       name: 'Rojo Corporativo',
       hex: '#DD0021',
-      image: '/src/assets/colores/#DD0021 - ROJO.png'
+      image: '/#DD0021 - ROJO.png'
     },
     {
       name: 'Amarillo Corporativo',
       hex: '#FBD600',
-      image: '/src/assets/colores/#FBD600- AMARILLO.png'
+      image: '/#FBD600- AMARILLO.png'
     }
   ]
 

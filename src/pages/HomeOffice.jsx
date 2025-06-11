@@ -21,7 +21,7 @@ function HomeOffice() {
               </p>
             </div>
             <div className="intro-image">
-              <img src="/src/assets/images/pages/home-office-1.jpg" alt="Oficina en casa minimalista" />
+              <img src="/pages/home-office-1.jpg" alt="Oficina en casa minimalista" />
             </div>
           </div>
         </section>
@@ -65,7 +65,7 @@ function HomeOffice() {
               </ul>
             </div>
             <div className="tips-image">
-              <img src="/src/assets/images/pages/home-office-2.jpg" alt="Oficina compacta nórdica" />
+              <img src="/pages/home-office-2.jpg" alt="Oficina compacta nórdica" />
             </div>
           </div>
         </section>

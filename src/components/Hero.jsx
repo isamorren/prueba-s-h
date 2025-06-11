@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section className="hero bg-pattern-subtle bg-pattern-diamonds">
       <div className="hero-image">
-        <img src="/src/assets/images/hero/banner-principal.jpg" alt="Transforma tu hogar en el espacio ideal" />
+        <img src="/hero/banner-principal.jpg" alt="Transforma tu hogar en el espacio ideal" />
       </div>
       <div className="container">
         <div className="hero-content">

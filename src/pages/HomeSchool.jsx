@@ -19,7 +19,7 @@ function HomeSchool() {
               </p>
             </div>
             <div className="intro-image">
-              <img src="/src/assets/images/pages/home-school-1.jpg" alt="Familia estudiando en casa" />
+              <img src="/pages/home-school-1.jpg" alt="Familia estudiando en casa" />
             </div>
           </div>
         </section>
@@ -63,7 +63,7 @@ function HomeSchool() {
               </ul>
             </div>
             <div className="tips-image">
-              <img src="/src/assets/images/pages/home-school-2.jpg" alt="Habitación juvenil con escritorio" />
+              <img src="/pages/home-school-2.jpg" alt="Habitación juvenil con escritorio" />
             </div>
           </div>
         </section>
