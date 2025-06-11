@@ -145,17 +145,21 @@
 @media (max-width: 768px) {
   .hero {
     min-height: 50vh;
-    align-items: flex-end;
+    align-items: center;
     padding: 1rem 0;
+    justify-content: center;
   }
   
   .hero-content {
-    margin-left: 0;
-    margin: 0 2rem 0.5rem 2rem;
-    padding: 1.25rem;
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 0 2rem;
+    padding: 1.5rem;
     max-width: none;
     text-align: center;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.60);
+    backdrop-filter: none;
   }
   
   .hero-title {
@@ -163,10 +167,26 @@
     margin-bottom: 0.5rem;
   }
   
+  .hero-highlight {
+    font-size: 1.2rem;
+  }
+  
   .hero-subtitle {
     font-size: 0.7rem;
     letter-spacing: 1px;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .hero-badge {
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+  
+  .stat {
+    font-size: 0.65rem;
   }
   
   .hero-buttons {
