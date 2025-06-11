@@ -1,0 +1,111 @@
+/* PATRONES Y TRAMAS CORPORATIVAS DE SODIMAC HOMECENTER */
+
+/* Usando los SVG de tramas directamente */
+.pattern-organic {
+  background-image: url('/src/assets/tramas/shutterstock_326096942.svg');
+  background-repeat: repeat;
+  background-size: 200px;
+}
+
+.pattern-triangles {
+  background-image: url('/src/assets/tramas/shutterstock_519025633.svg');
+  background-repeat: repeat;
+  background-size: 150px;
+}
+
+.pattern-stripes {
+  background-image: url('/src/assets/tramas/shutterstock_520474876.svg');
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+}
+
+.pattern-grilla {
+  background-image: url('/src/assets/grillas/Grilla-Banner.svg');
+  background-repeat: repeat;
+  background-size: 100px;
+}
+
+/* Patrón de diamantes basado en la grilla */
+.pattern-diamonds {
+  background-image: url('/src/assets/grillas/Grilla-Banner.svg');
+  background-repeat: repeat;
+  background-size: 60px;
+  opacity: 0.1;
+}
+
+/* Clases auxiliares para aplicar los patrones */
+.bg-trama-organic {
+  background-image: url('/src/assets/tramas/shutterstock_326096942.svg');
+  background-repeat: repeat;
+  background-size: 300px;
+}
+
+.bg-trama-triangles {
+  background-image: url('/src/assets/tramas/shutterstock_519025633.svg');
+  background-repeat: repeat;
+  background-size: 200px;
+}
+
+.bg-trama-stripes {
+  background-image: url('/src/assets/tramas/shutterstock_520474876.svg');
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: auto 40px;
+}
+
+/* UTILIDADES PARA APLICAR PATRONES */
+.bg-pattern-subtle {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-pattern-subtle::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.1;
+  z-index: 1;
+}
+
+.bg-pattern-diamonds::before {
+  background: var(--pattern-diamonds);
+}
+
+.bg-pattern-triangles::before {
+  background: var(--pattern-triangles);
+}
+
+/* ELEMENTOS CON IDENTIDAD CORPORATIVA */
+.corporate-accent {
+  position: relative;
+}
+
+.corporate-accent::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    var(--accent-color) 0%,
+    var(--secondary-color) 50%,
+    var(--primary-color) 100%
+  );
+}
+
+.logo-colors {
+  background: linear-gradient(
+    45deg,
+    var(--accent-color) 0%,
+    var(--accent-color) 33%,
+    var(--secondary-color) 33%,
+    var(--secondary-color) 66%,
+    var(--primary-color) 66%,
+    var(--primary-color) 100%
+  );
+}

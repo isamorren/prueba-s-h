@@ -1,0 +1,125 @@
+.home {
+  min-height: 100vh;
+}
+
+.intro-section {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: var(--bg-light);
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/src/assets/tramas/shutterstock_326096942.svg');
+  background-repeat: repeat;
+  background-size: 400px;
+  opacity: 0.03;
+  z-index: 1;
+}
+
+.intro-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  position: relative;
+  z-index: 2;
+}
+
+.intro-text {
+  font-size: 1.125rem;
+  color: var(--text-light);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+  position: relative;
+  z-index: 2;
+}
+
+.stats-section {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--blue-alt) 100%);
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+
+.stats-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(circle at 80% 20%, rgba(251, 214, 0, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 20% 80%, rgba(221, 0, 33, 0.1) 0%, transparent 50%);
+  z-index: 1;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.stat-item h3 {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--white);
+}
+
+.stat-item p {
+  font-family: var(--font-secondary);
+  font-size: 1.125rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.cta-section {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/src/assets/grillas/Grilla-Banner.svg');
+  background-repeat: repeat;
+  background-size: 120px;
+  opacity: 0.03;
+  z-index: 1;
+}
+
+.cta-section h2 {
+  margin-bottom: 1rem;
+}
+
+.cta-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.cta-section p {
+  font-size: 1.125rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}

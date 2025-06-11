@@ -1,0 +1,107 @@
+/* FUENTES CORPORATIVAS SODIMAC HOMECENTER */
+
+/* ================================================
+   BUNDAY CLEAN - Fuente Principal Corporativa
+   ================================================ */
+
+@font-face {
+  font-family: 'BundayClean';
+  src: url('../assets/fonts/bunday-clean/Buntype-BundayClean-Regu.woff2') format('woff2'),
+       url('../assets/fonts/bunday-clean/Buntype-BundayClean-Regu.woff') format('woff'),
+       url('../assets/fonts/bunday-clean/Buntype-BundayClean-Regu.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BundayClean';
+  src: url('../assets/fonts/bunday-clean/Buntype-BundayClean-Bold.woff2') format('woff2'),
+       url('../assets/fonts/bunday-clean/Buntype-BundayClean-Bold.woff') format('woff'),
+       url('../assets/fonts/bunday-clean/Buntype-BundayClean-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ================================================
+   LATO - Fuente de Lectura y Navegación
+   ================================================ */
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../assets/fonts/lato/Lato-Regular.woff') format('woff'),
+       url('../assets/fonts/lato/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../assets/fonts/lato/Lato-Bold.woff') format('woff'),
+       url('../assets/fonts/lato/Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ================================================
+   FIXTURE - Fuente Display para Destacados
+   ================================================ */
+
+@font-face {
+  font-family: 'Fixture';
+  src: url('../assets/fonts/fixture/Fixture-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fixture';
+  src: url('../assets/fonts/fixture/Fixture-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ================================================
+   MISO - Fuente Auxiliar para Metadatos
+   ================================================ */
+
+@font-face {
+  font-family: 'Miso';
+  src: url('../assets/fonts/miso/miso-regular_web.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Miso';
+  src: url('../assets/fonts/miso/Miso-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ================================================
+   VARIABLES DE FUENTES
+   ================================================ */
+
+:root {
+  --font-primary: 'BundayClean', 'Arial Black', Arial, sans-serif;
+  --font-secondary: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-display: 'Fixture', 'Impact', 'Arial Black', sans-serif;
+  --font-auxiliary: 'Miso', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ================================================
+   PRELOAD CRÍTICO (Agregar al HTML)
+   ================================================ */
+
+/* 
+<link rel="preload" href="/src/assets/fonts/bunday-clean/Buntype-BundayClean-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/src/assets/fonts/lato/Lato-Regular.woff" as="font" type="font/woff" crossorigin>
+*/

@@ -1,0 +1,175 @@
+/* Category Cards Section */
+.category-cards {
+  padding: 4rem 0;
+}
+
+.section-title {
+  font-family: var(--font-primary);
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+.section-subtitle {
+  font-family: var(--font-secondary);
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--text-light);
+  margin-bottom: 3rem;
+  font-style: italic;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* Unified Card Structure */
+.category-card {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  border: 2px solid transparent;
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Image */
+.card-image {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-image img {
+  width: 100%;
+  height: 105%;
+  object-fit: cover;
+  object-position: center center;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover .card-image img {
+  transform: scale(1.05);
+}
+
+/* Optional Badges - Positioned over image */
+.card-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: linear-gradient(45deg, var(--secondary-color), var(--primary-color));
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-family: var(--font-secondary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  z-index: 3;
+  transition: opacity 0.3s ease;
+}
+
+.trending-indicator {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  animation: pulse 2s infinite;
+  z-index: 3;
+  transition: opacity 0.3s ease;
+}
+
+/* Card Content - Unified Structure */
+.card-content {
+  padding: 2rem;
+  background-color: #FFFFFF;
+}
+
+.card-content h3 {
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+  line-height: 1.2;
+}
+
+.card-content p {
+  font-family: var(--font-secondary);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.features-list {
+  list-style: none;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+  font-family: var(--font-secondary);
+}
+
+.features-list li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--text-light);
+  font-family: var(--font-secondary);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.features-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.card-link {
+  font-family: var(--font-secondary);
+  display: inline-block;
+  font-weight: 700;
+  color: var(--secondary-color);
+  transition: transform 0.3s ease;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+.card-link:hover {
+  transform: translateX(5px);
+  color: var(--secondary-color);
+}
+
+/* Animation for pulse effect */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* Float up and down animation */
+@keyframes floatUpDown {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
