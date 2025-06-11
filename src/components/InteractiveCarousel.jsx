@@ -9,7 +9,7 @@ function InteractiveCarousel() {
       id: 1,
       title: "WFH como un CEO 👑",
       subtitle: "Productivity level: Infinite",
-      image: "/src/assets/images/pages/home-office-1.jpg",
+      image: "/pages/home-office-1.jpg",
       products: [
         { name: "Estante", price: "$299.990", hot: true },
         { name: "Silla Executive", price: "$199.990" },
@@ -21,7 +21,7 @@ function InteractiveCarousel() {
       id: 2,
       title: "Modo bestia Gamer🎮",
       subtitle: "Ready Player One vibes",
-      image: "/src/assets/images/pages/gaming-1.jpg",
+      image: "/pages/gaming-1.jpg",
       products: [
         { name: "Escritorio Gamer RGB", price: "$449.990", hot: true },
         { name: "Silla Gaming Pro", price: "$329.990" },
@@ -33,7 +33,7 @@ function InteractiveCarousel() {
       id: 3,
       title: "Study Squad Goals 📚",
       subtitle: "Future leaders training here",
-      image: "/src/assets/images/pages/home-school-1.jpg",
+      image: "/pages/home-school-1.jpg",
       products: [
         { name: "Escritorio Kids Pro", price: "$179.990" },
         { name: "Silla Ergonomic Jr", price: "$129.990", hot: true },
